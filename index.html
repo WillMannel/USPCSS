@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Postcard Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Create Your Digital Postcard</h1>
+    <div>
+        <label for="background">Choose a background:</label>
+        <select id="background">
+            <option value="beach">Beach</option>
+            <option value="city">City</option>
+            <option value="mountains">Mountains</option>
+            <option value="forest">Forest</option>
+        </select>
+    </div>
+    <div>
+        <label for="message">Your message:</label>
+        <textarea id="message" rows="5" cols="33"></textarea>
+    </div>
+    <button onclick="updatePreview()">Preview</button>
+    <div id="preview" class="preview"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

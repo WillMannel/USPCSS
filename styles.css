@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#background {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
